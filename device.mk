@@ -140,6 +140,10 @@ PRODUCT_PACKAGES += \
     disable_configstore \
     libdrm.vendor
 
+# Codec2 modules
+PRODUCT_PACKAGES += \
+    com.android.media.swcodec 
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl.custom \
