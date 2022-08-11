@@ -182,6 +182,10 @@ TARGET_COPY_OUT_ODM := odm
 # Vendor Security Patch
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
+# SELinux
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Vintf
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
