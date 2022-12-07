@@ -17,6 +17,9 @@
 /data/gf_data(/.*)?              									u:object_r:vendor_fingerprint_data_file:s0
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2.1-service\.fleur                           u:object_r:hal_fingerprint_default_exec:s0
 
+# IR
+/dev/spidev3.0                                  							u:object_r:spidev_device:s0
+
 # Lights
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.fleur                          	u:object_r:hal_light_default_exec:s0
 
