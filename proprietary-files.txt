@@ -1605,6 +1605,10 @@ vendor/lib/nfc_nci.st21nfc.st.so
 vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/nfc_nci.st21nfc.st.so
 
+# Power
+vendor/lib64/vendor.mediatek.hardware.power@1.1.so
+vendor/lib64/vendor.mediatek.hardware.power@2.0.so
+
 # Public libraries
 vendor/etc/public.libraries.txt
 
