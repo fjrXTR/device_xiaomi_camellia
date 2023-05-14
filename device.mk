@@ -117,9 +117,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor:64 \
     android.hardware.camera.provider@2.6.vendor:64
 
-PRODUCT_PACKAGES += \
-    CameraGo
-
 # CAS
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service-lazy
@@ -350,9 +347,6 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-lite
 
 # Rootdir
-PRODUCT_PACKAGES += \
-    init.insmod.sh
-
 PRODUCT_PACKAGES += \
     fstab.mt6833 \
     fstab.mt6833.ramdisk \
